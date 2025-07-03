@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f0f0f0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #333;
+  padding: 8px;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: inline-block;
+  margin: auto;
+  border: 2px;
+  border-radius: 50%;
+}
+.img-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.para-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.para-2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #333;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+input {
+  padding: 10px;
+  padding-right: 300px;
+  margin-bottom: 15px;
+}
+
+.Submit {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 30px;
+}
+
+.B-home {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+}
